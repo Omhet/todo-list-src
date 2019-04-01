@@ -20,7 +20,8 @@ class List extends Component {
 const style = {
     main: {
         overflow: 'auto',
-        height: 400
+        maxHeight: 400,
+        paddingBottom: 32   
     },
     list: {
         listStyle: 'none',
